@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Academy Prompt Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260206g" />
+  </head>
+  <body>
+    <div class="bg-mesh" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">AI</span>
+        <span class="brand-text">ACADEMY</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Prompt Library</p>
+        <h1>
+          <span class="accent-pink">AI IS HERE.</span>
+          <span>USE IT IN YOUR DAILY WORK.</span>
+        </h1>
+        <p class="hero-copy">
+          Find practical prompt templates by industry, job area, and use case, then edit and copy.
+        </p>
+      </section>
+
+      <section class="controls" aria-label="Prompt filters">
+        <div id="setupPanel" class="setup-panel">
+          <div class="setup-grid">
+            <label class="select-field">
+              <span>Industry</span>
+              <div class="select-control">
+                <select id="industrySelect"></select>
+                <button id="clearIndustryBtn" class="clear-btn" type="button" aria-label="Clear industry selection">X</button>
+              </div>
+            </label>
+            <label class="select-field">
+              <span>Job Area</span>
+              <div class="select-control">
+                <select id="jobAreaSelect"></select>
+                <button id="clearJobAreaBtn" class="clear-btn" type="button" aria-label="Clear job area selection">X</button>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="filter-row">
+          <p class="filter-label">Use Case</p>
+          <div id="useCasePills" class="pill-wrap"></div>
+          <p id="useCaseHint" class="filter-hint hidden">Select a specific job area to see its use cases.</p>
+        </div>
+        <p id="resultsMeta" class="results-meta"></p>
+      </section>
+
+      <section id="promptGrid" class="prompt-grid" aria-live="polite"></section>
+      <p id="emptyState" class="empty hidden">No prompts match your filters yet.</p>
+    </main>
+
+    <template id="promptCardTemplate">
+      <article class="prompt-card">
+        <div class="card-head">
+          <h2 class="prompt-title"></h2>
+          <div class="tags"></div>
+        </div>
+        <p class="prompt-description">Editable template. Replace placeholders before use.</p>
+        <textarea class="prompt-text" rows="7"></textarea>
+        <div class="card-actions">
+          <button class="copy-btn">Copy Prompt</button>
+          <span class="copy-status" aria-live="polite"></span>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js?v=20260206g"></script>
+  </body>
+</html>

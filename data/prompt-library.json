@@ -1,0 +1,1784 @@
+{
+  "industries": [
+    {
+      "id": "all",
+      "name": "All industries"
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare"
+    },
+    {
+      "id": "automotive",
+      "name": "Automotive"
+    },
+    {
+      "id": "technology",
+      "name": "Technology"
+    },
+    {
+      "id": "consumer-goods",
+      "name": "Consumer goods"
+    },
+    {
+      "id": "construction-engineering",
+      "name": "Construction engineering"
+    },
+    {
+      "id": "financial-services",
+      "name": "Financial services"
+    }
+  ],
+  "jobAreas": [
+    {
+      "id": "marketing-communications",
+      "name": "Marketing & Communications",
+      "useCases": [
+        {
+          "id": "content-drafting",
+          "name": "Content drafting"
+        },
+        {
+          "id": "content-brainstorming",
+          "name": "Content brainstorming"
+        },
+        {
+          "id": "content-review",
+          "name": "Content review"
+        },
+        {
+          "id": "landing-page-review",
+          "name": "Landing page review"
+        },
+        {
+          "id": "tone-of-voice-analyzer",
+          "name": "Tone of voice analyzer"
+        },
+        {
+          "id": "website-copywriting-assistant",
+          "name": "Website copywriting assistant"
+        },
+        {
+          "id": "email-social-adaptation",
+          "name": "Email and social adaptation"
+        },
+        {
+          "id": "campaign-brief-creation",
+          "name": "Campaign brief creation"
+        },
+        {
+          "id": "message-house-development",
+          "name": "Message house development"
+        },
+        {
+          "id": "press-release-drafting",
+          "name": "Press release drafting"
+        },
+        {
+          "id": "seo-content-optimization",
+          "name": "SEO content optimization"
+        },
+        {
+          "id": "audience-persona-development",
+          "name": "Audience persona development"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "sales-account-management",
+      "name": "Sales & Account Management",
+      "useCases": [
+        {
+          "id": "outreach-drafting",
+          "name": "Outreach drafting"
+        },
+        {
+          "id": "account-research-summary",
+          "name": "Account research summary"
+        },
+        {
+          "id": "proposal-support",
+          "name": "Proposal support"
+        },
+        {
+          "id": "objection-handling",
+          "name": "Objection handling"
+        },
+        {
+          "id": "meeting-follow-up",
+          "name": "Meeting follow-up"
+        },
+        {
+          "id": "competitive-intelligence-briefs",
+          "name": "Competitive intelligence briefs"
+        },
+        {
+          "id": "discovery-question-design",
+          "name": "Discovery question design"
+        },
+        {
+          "id": "call-summary-next-steps",
+          "name": "Call summary and next steps"
+        },
+        {
+          "id": "renewal-expansion-strategy",
+          "name": "Renewal and expansion strategy"
+        },
+        {
+          "id": "pricing-packaging-positioning",
+          "name": "Pricing and packaging positioning"
+        },
+        {
+          "id": "pipeline-risk-review",
+          "name": "Pipeline risk review"
+        },
+        {
+          "id": "executive-business-review-draft",
+          "name": "Executive business review draft"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "customer-service-support",
+      "name": "Customer Service & Support",
+      "useCases": [
+        {
+          "id": "response-drafting",
+          "name": "Response drafting"
+        },
+        {
+          "id": "case-summarization",
+          "name": "Case summarization"
+        },
+        {
+          "id": "knowledge-base-writing",
+          "name": "Knowledge base writing"
+        },
+        {
+          "id": "ticket-prioritization",
+          "name": "Ticket prioritization"
+        },
+        {
+          "id": "quality-review",
+          "name": "Quality review"
+        },
+        {
+          "id": "response-personalization",
+          "name": "Response personalization"
+        },
+        {
+          "id": "escalation-summary",
+          "name": "Escalation summary"
+        },
+        {
+          "id": "customer-sentiment-analysis",
+          "name": "Customer sentiment analysis"
+        },
+        {
+          "id": "macro-template-creation",
+          "name": "Macro template creation"
+        },
+        {
+          "id": "sla-breach-communication",
+          "name": "SLA breach communication"
+        },
+        {
+          "id": "churn-risk-flagging",
+          "name": "Churn risk flagging"
+        },
+        {
+          "id": "voice-of-customer-summary",
+          "name": "Voice of customer summary"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "name": "Operations",
+      "useCases": [
+        {
+          "id": "sop-drafting",
+          "name": "SOP drafting"
+        },
+        {
+          "id": "process-improvement-ideas",
+          "name": "Process improvement ideas"
+        },
+        {
+          "id": "meeting-to-action-plan",
+          "name": "Meeting to action plan"
+        },
+        {
+          "id": "status-reporting",
+          "name": "Status reporting"
+        },
+        {
+          "id": "vendor-communication",
+          "name": "Vendor communication"
+        },
+        {
+          "id": "capacity-planning-support",
+          "name": "Capacity planning support"
+        },
+        {
+          "id": "workflow-documentation-cleanup",
+          "name": "Workflow documentation cleanup"
+        },
+        {
+          "id": "cross-functional-handoff-plan",
+          "name": "Cross-functional handoff plan"
+        },
+        {
+          "id": "kpi-dashboard-narrative",
+          "name": "KPI dashboard narrative"
+        },
+        {
+          "id": "root-cause-analysis-support",
+          "name": "Root cause analysis support"
+        },
+        {
+          "id": "change-management-communication",
+          "name": "Change management communication"
+        },
+        {
+          "id": "resource-allocation-scenarios",
+          "name": "Resource allocation scenarios"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "it-engineering",
+      "name": "IT & Engineering",
+      "useCases": [
+        {
+          "id": "requirements-to-tasks",
+          "name": "Requirements to tasks"
+        },
+        {
+          "id": "technical-documentation",
+          "name": "Technical documentation"
+        },
+        {
+          "id": "incident-summaries",
+          "name": "Incident summaries"
+        },
+        {
+          "id": "data-bi-analysis-support",
+          "name": "Data and BI analysis support"
+        },
+        {
+          "id": "query-and-script-assistant",
+          "name": "Query and script assistant"
+        },
+        {
+          "id": "architecture-decision-record-drafting",
+          "name": "Architecture decision record drafting"
+        },
+        {
+          "id": "code-review-summary",
+          "name": "Code review summary"
+        },
+        {
+          "id": "postmortem-drafting",
+          "name": "Postmortem drafting"
+        },
+        {
+          "id": "test-case-generation",
+          "name": "Test case generation"
+        },
+        {
+          "id": "api-documentation-drafting",
+          "name": "API documentation drafting"
+        },
+        {
+          "id": "release-notes-drafting",
+          "name": "Release notes drafting"
+        },
+        {
+          "id": "monitoring-alert-tuning",
+          "name": "Monitoring alert tuning"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "useCases": [
+        {
+          "id": "budget-analysis",
+          "name": "Budget analysis"
+        },
+        {
+          "id": "forecast-scenarios",
+          "name": "Forecast scenarios"
+        },
+        {
+          "id": "financial-report-commentary",
+          "name": "Financial report commentary"
+        },
+        {
+          "id": "cost-optimization-ideas",
+          "name": "Cost optimization ideas"
+        },
+        {
+          "id": "policy-drafting",
+          "name": "Policy drafting"
+        },
+        {
+          "id": "cash-flow-forecasting",
+          "name": "Cash flow forecasting"
+        },
+        {
+          "id": "variance-explanation-drafting",
+          "name": "Variance explanation drafting"
+        },
+        {
+          "id": "monthly-close-checklist",
+          "name": "Monthly close checklist"
+        },
+        {
+          "id": "board-update-summary",
+          "name": "Board update summary"
+        },
+        {
+          "id": "scenario-sensitivity-analysis",
+          "name": "Scenario sensitivity analysis"
+        },
+        {
+          "id": "expense-policy-qna",
+          "name": "Expense policy Q&A"
+        },
+        {
+          "id": "procurement-savings-analysis",
+          "name": "Procurement savings analysis"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "hr-learning-talent",
+      "name": "HR, Learning & Talent",
+      "useCases": [
+        {
+          "id": "job-description-writing",
+          "name": "Job description writing"
+        },
+        {
+          "id": "interview-kit-creation",
+          "name": "Interview kit creation"
+        },
+        {
+          "id": "onboarding-plans",
+          "name": "Onboarding plans"
+        },
+        {
+          "id": "training-content-creation",
+          "name": "Training content creation"
+        },
+        {
+          "id": "policy-communication",
+          "name": "Policy communication"
+        },
+        {
+          "id": "performance-review-drafting",
+          "name": "Performance review drafting"
+        },
+        {
+          "id": "employee-feedback-summary",
+          "name": "Employee feedback summary"
+        },
+        {
+          "id": "learning-path-design",
+          "name": "Learning path design"
+        },
+        {
+          "id": "internal-communications-drafting",
+          "name": "Internal communications drafting"
+        },
+        {
+          "id": "workforce-planning-scenarios",
+          "name": "Workforce planning scenarios"
+        },
+        {
+          "id": "engagement-survey-analysis",
+          "name": "Engagement survey analysis"
+        },
+        {
+          "id": "career-framework-drafting",
+          "name": "Career framework drafting"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "legal-risk-compliance",
+      "name": "Legal, Risk & Compliance",
+      "useCases": [
+        {
+          "id": "contract-review-support",
+          "name": "Contract review support"
+        },
+        {
+          "id": "policy-drafting-rewrite",
+          "name": "Policy drafting and rewrite"
+        },
+        {
+          "id": "regulation-summarization",
+          "name": "Regulation summarization"
+        },
+        {
+          "id": "risk-register-support",
+          "name": "Risk register support"
+        },
+        {
+          "id": "audit-evidence-documentation",
+          "name": "Audit evidence documentation"
+        },
+        {
+          "id": "clause-comparison-summary",
+          "name": "Clause comparison summary"
+        },
+        {
+          "id": "compliance-gap-assessment",
+          "name": "Compliance gap assessment"
+        },
+        {
+          "id": "due-diligence-checklist",
+          "name": "Due diligence checklist"
+        },
+        {
+          "id": "privacy-notice-drafting",
+          "name": "Privacy notice drafting"
+        },
+        {
+          "id": "obligation-tracking-summary",
+          "name": "Obligation tracking summary"
+        },
+        {
+          "id": "legal-hold-communication",
+          "name": "Legal hold communication"
+        },
+        {
+          "id": "third-party-risk-summary",
+          "name": "Third-party risk summary"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "id": "mk-cd-1",
+      "title": "First Draft Writer",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "content-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Draft a [FORMAT] about [TOPIC] for [AUDIENCE]. Keep it clear, practical, and under [LENGTH]."
+    },
+    {
+      "id": "mk-cr-1",
+      "title": "Clarity and Tone Review",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "content-review",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Review this draft: [PASTE TEXT]. Suggest edits to improve clarity, structure, and brand tone."
+    },
+    {
+      "id": "mk-wc-1",
+      "title": "Landing Page Copy",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "website-copywriting-assistant",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Write hero headline, subheadline, and CTA copy for a web page about [OFFER] for [AUDIENCE]."
+    },
+    {
+      "id": "sa-od-1",
+      "title": "Prospect Outreach Email",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "outreach-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Write a short outreach email to [PROSPECT TYPE] about [VALUE PROP]. Include one clear CTA."
+    },
+    {
+      "id": "sa-ps-1",
+      "title": "Proposal Draft Assistant",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "proposal-support",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Draft a proposal outline for [CLIENT] covering goals, approach, timeline, and expected outcomes."
+    },
+    {
+      "id": "cs-rd-1",
+      "title": "Customer Reply Draft",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "response-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Draft a response to this customer request: [PASTE REQUEST]. Tone: empathetic, concise, solution-focused."
+    },
+    {
+      "id": "cs-kb-1",
+      "title": "Help Article Draft",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "knowledge-base-writing",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Create a help article for [ISSUE/TASK] with steps, common errors, and troubleshooting tips."
+    },
+    {
+      "id": "op-sd-1",
+      "title": "SOP Creator",
+      "jobAreaId": "operations",
+      "useCaseId": "sop-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Create a standard operating procedure for [PROCESS]. Include purpose, scope, roles, and step-by-step instructions."
+    },
+    {
+      "id": "op-pi-1",
+      "title": "Bottleneck Finder",
+      "jobAreaId": "operations",
+      "useCaseId": "process-improvement-ideas",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Analyze this workflow: [PASTE PROCESS]. Identify bottlenecks and propose 5 improvements with expected impact."
+    },
+    {
+      "id": "it-td-1",
+      "title": "Runbook Draft",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "technical-documentation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Draft a runbook for [SYSTEM/PROCESS] with prerequisites, steps, rollback plan, and validation checks."
+    },
+    {
+      "id": "it-is-1",
+      "title": "Incident Recap",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "incident-summaries",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Summarize this incident log: [PASTE LOG]. Include timeline, impact, root cause, resolution, and prevention actions."
+    },
+    {
+      "id": "it-eh-1",
+      "title": "EHR Integration Troubleshooter",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "query-and-script-assistant",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "Create a troubleshooting checklist for an EHR integration issue using this context: [PASTE CONTEXT]."
+    },
+    {
+      "id": "it-au-1",
+      "title": "Vehicle Telematics Pipeline Check",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "data-bi-analysis-support",
+      "industryIds": [
+        "automotive"
+      ],
+      "template": "Review this telematics pipeline summary: [PASTE SUMMARY]. Identify likely data quality issues and suggest validation checks."
+    },
+    {
+      "id": "fi-ba-1",
+      "title": "Budget Variance Summary",
+      "jobAreaId": "finance",
+      "useCaseId": "budget-analysis",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Summarize budget vs actual performance from this data: [PASTE DATA]. Explain top variances and likely causes."
+    },
+    {
+      "id": "fi-fr-1",
+      "title": "CFO Commentary Draft",
+      "jobAreaId": "finance",
+      "useCaseId": "financial-report-commentary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Draft executive commentary for this monthly report: [PASTE METRICS]. Focus on drivers, risks, and next actions."
+    },
+    {
+      "id": "fi-fs-1",
+      "title": "Scenario Builder for Capital Projects",
+      "jobAreaId": "finance",
+      "useCaseId": "forecast-scenarios",
+      "industryIds": [
+        "construction-engineering"
+      ],
+      "template": "Build best/base/worst-case scenarios for a construction project budget with these assumptions: [PASTE ASSUMPTIONS]."
+    },
+    {
+      "id": "fi-fin-1",
+      "title": "Regulatory Ratio Commentary",
+      "jobAreaId": "finance",
+      "useCaseId": "financial-report-commentary",
+      "industryIds": [
+        "financial-services"
+      ],
+      "template": "Draft a concise internal note explaining changes in key financial ratios using this data: [PASTE DATA]."
+    },
+    {
+      "id": "hr-jd-1",
+      "title": "JD Draft Assistant",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "job-description-writing",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Write a job description for [ROLE] including responsibilities, required skills, and success indicators."
+    },
+    {
+      "id": "hr-tc-1",
+      "title": "Microlearning Builder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "training-content-creation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Design a 15-minute training module on [TOPIC] with objectives, key points, and a short quiz."
+    },
+    {
+      "id": "hr-cg-1",
+      "title": "Factory Floor Onboarding Outline",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "onboarding-plans",
+      "industryIds": [
+        "consumer-goods"
+      ],
+      "template": "Create a 30-day onboarding outline for a plant operations role with safety, quality, and process training milestones."
+    },
+    {
+      "id": "lr-cr-1",
+      "title": "Contract Clause Summary",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "contract-review-support",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Summarize key clauses in this contract: [PASTE CONTRACT]. Highlight obligations, risks, and items needing legal review."
+    },
+    {
+      "id": "lr-rs-1",
+      "title": "Regulatory Brief",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "regulation-summarization",
+      "industryIds": [
+        "all"
+      ],
+      "template": "Summarize this regulatory text: [PASTE TEXT]. Explain practical implications for [BUSINESS UNIT]."
+    },
+    {
+      "id": "lr-hc-1",
+      "title": "HIPAA Notice Draft",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "policy-drafting-rewrite",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "Draft a clear patient-facing privacy notice update related to [TOPIC], using plain language and compliant wording."
+    },
+    {
+      "id": "mk-tech-1",
+      "title": "Developer Feature Launch Copy",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "content-drafting",
+      "industryIds": [
+        "technology"
+      ],
+      "template": "Draft launch messaging for a new software feature targeting [USER TYPE]. Include value statement and 3 proof points."
+    },
+    {
+      "id": "ph-marketing-communications-content-brainstorming",
+      "title": "Content brainstorming Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "content-brainstorming",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-landing-page-review",
+      "title": "Landing page review Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "landing-page-review",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-tone-of-voice-analyzer",
+      "title": "Tone of voice analyzer Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "tone-of-voice-analyzer",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-email-social-adaptation",
+      "title": "Email and social adaptation Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "email-social-adaptation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-campaign-brief-creation",
+      "title": "Campaign brief creation Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "campaign-brief-creation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-message-house-development",
+      "title": "Message house development Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "message-house-development",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-press-release-drafting",
+      "title": "Press release drafting Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "press-release-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-seo-content-optimization",
+      "title": "SEO content optimization Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "seo-content-optimization",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-audience-persona-development",
+      "title": "Audience persona development Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "audience-persona-development",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-marketing-communications-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "marketing-communications",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-account-research-summary",
+      "title": "Account research summary Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "account-research-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-objection-handling",
+      "title": "Objection handling Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "objection-handling",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-meeting-follow-up",
+      "title": "Meeting follow-up Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "meeting-follow-up",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-competitive-intelligence-briefs",
+      "title": "Competitive intelligence briefs Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "competitive-intelligence-briefs",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-discovery-question-design",
+      "title": "Discovery question design Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "discovery-question-design",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-call-summary-next-steps",
+      "title": "Call summary and next steps Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "call-summary-next-steps",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-renewal-expansion-strategy",
+      "title": "Renewal and expansion strategy Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "renewal-expansion-strategy",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-pricing-packaging-positioning",
+      "title": "Pricing and packaging positioning Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "pricing-packaging-positioning",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-pipeline-risk-review",
+      "title": "Pipeline risk review Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "pipeline-risk-review",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-executive-business-review-draft",
+      "title": "Executive business review draft Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "executive-business-review-draft",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-sales-account-management-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "sales-account-management",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-case-summarization",
+      "title": "Case summarization Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "case-summarization",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-ticket-prioritization",
+      "title": "Ticket prioritization Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "ticket-prioritization",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-quality-review",
+      "title": "Quality review Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "quality-review",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-response-personalization",
+      "title": "Response personalization Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "response-personalization",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-escalation-summary",
+      "title": "Escalation summary Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "escalation-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-customer-sentiment-analysis",
+      "title": "Customer sentiment analysis Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "customer-sentiment-analysis",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-macro-template-creation",
+      "title": "Macro template creation Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "macro-template-creation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-sla-breach-communication",
+      "title": "SLA breach communication Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "sla-breach-communication",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-churn-risk-flagging",
+      "title": "Churn risk flagging Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "churn-risk-flagging",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-voice-of-customer-summary",
+      "title": "Voice of customer summary Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "voice-of-customer-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-customer-service-support-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "customer-service-support",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-meeting-to-action-plan",
+      "title": "Meeting to action plan Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "meeting-to-action-plan",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-status-reporting",
+      "title": "Status reporting Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "status-reporting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-vendor-communication",
+      "title": "Vendor communication Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "vendor-communication",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-capacity-planning-support",
+      "title": "Capacity planning support Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "capacity-planning-support",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-workflow-documentation-cleanup",
+      "title": "Workflow documentation cleanup Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "workflow-documentation-cleanup",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-cross-functional-handoff-plan",
+      "title": "Cross-functional handoff plan Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "cross-functional-handoff-plan",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-kpi-dashboard-narrative",
+      "title": "KPI dashboard narrative Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "kpi-dashboard-narrative",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-root-cause-analysis-support",
+      "title": "Root cause analysis support Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "root-cause-analysis-support",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-change-management-communication",
+      "title": "Change management communication Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "change-management-communication",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-resource-allocation-scenarios",
+      "title": "Resource allocation scenarios Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "resource-allocation-scenarios",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-operations-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "operations",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-requirements-to-tasks",
+      "title": "Requirements to tasks Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "requirements-to-tasks",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-architecture-decision-record-drafting",
+      "title": "Architecture decision record drafting Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "architecture-decision-record-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-code-review-summary",
+      "title": "Code review summary Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "code-review-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-postmortem-drafting",
+      "title": "Postmortem drafting Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "postmortem-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-test-case-generation",
+      "title": "Test case generation Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "test-case-generation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-api-documentation-drafting",
+      "title": "API documentation drafting Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "api-documentation-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-release-notes-drafting",
+      "title": "Release notes drafting Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "release-notes-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-monitoring-alert-tuning",
+      "title": "Monitoring alert tuning Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "monitoring-alert-tuning",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-it-engineering-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "it-engineering",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-cost-optimization-ideas",
+      "title": "Cost optimization ideas Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "cost-optimization-ideas",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-policy-drafting",
+      "title": "Policy drafting Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "policy-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-cash-flow-forecasting",
+      "title": "Cash flow forecasting Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "cash-flow-forecasting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-variance-explanation-drafting",
+      "title": "Variance explanation drafting Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "variance-explanation-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-monthly-close-checklist",
+      "title": "Monthly close checklist Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "monthly-close-checklist",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-board-update-summary",
+      "title": "Board update summary Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "board-update-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-scenario-sensitivity-analysis",
+      "title": "Scenario sensitivity analysis Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "scenario-sensitivity-analysis",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-expense-policy-qna",
+      "title": "Expense policy Q&A Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "expense-policy-qna",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-procurement-savings-analysis",
+      "title": "Procurement savings analysis Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "procurement-savings-analysis",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-finance-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "finance",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-interview-kit-creation",
+      "title": "Interview kit creation Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "interview-kit-creation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-policy-communication",
+      "title": "Policy communication Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "policy-communication",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-performance-review-drafting",
+      "title": "Performance review drafting Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "performance-review-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-employee-feedback-summary",
+      "title": "Employee feedback summary Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "employee-feedback-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-learning-path-design",
+      "title": "Learning path design Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "learning-path-design",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-internal-communications-drafting",
+      "title": "Internal communications drafting Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "internal-communications-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-workforce-planning-scenarios",
+      "title": "Workforce planning scenarios Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "workforce-planning-scenarios",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-engagement-survey-analysis",
+      "title": "Engagement survey analysis Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "engagement-survey-analysis",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-career-framework-drafting",
+      "title": "Career framework drafting Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "career-framework-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-hr-learning-talent-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "hr-learning-talent",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-risk-register-support",
+      "title": "Risk register support Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "risk-register-support",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-audit-evidence-documentation",
+      "title": "Audit evidence documentation Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "audit-evidence-documentation",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-clause-comparison-summary",
+      "title": "Clause comparison summary Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "clause-comparison-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-compliance-gap-assessment",
+      "title": "Compliance gap assessment Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "compliance-gap-assessment",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-due-diligence-checklist",
+      "title": "Due diligence checklist Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "due-diligence-checklist",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-privacy-notice-drafting",
+      "title": "Privacy notice drafting Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "privacy-notice-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-obligation-tracking-summary",
+      "title": "Obligation tracking summary Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "obligation-tracking-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-legal-hold-communication",
+      "title": "Legal hold communication Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "legal-hold-communication",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-third-party-risk-summary",
+      "title": "Third-party risk summary Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "third-party-risk-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-email-drafting",
+      "title": "Email drafting Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-email-feedback",
+      "title": "Email feedback Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    },
+    {
+      "id": "ph-legal-risk-compliance-colleague-situation-feedback",
+      "title": "Colleague situation feedback Placeholder",
+      "jobAreaId": "legal-risk-compliance",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "all"
+      ],
+      "template": "[PLACEHOLDER]"
+    }
+  ]
+}
