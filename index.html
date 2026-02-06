@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260206g" />
+    <link rel="stylesheet" href="styles.css?v=20260206h" />
   </head>
   <body>
     <div class="bg-mesh" aria-hidden="true"></div>
@@ -41,14 +41,20 @@
               <span>Industry</span>
               <div class="select-control">
                 <select id="industrySelect"></select>
-                <button id="clearIndustryBtn" class="clear-btn" type="button" aria-label="Clear industry selection">X</button>
+              </div>
+              <div id="industrySelectedControl" class="selected-control hidden">
+                <span id="industrySelectedText" class="selected-pill"></span>
+                <button id="industrySelectedClearBtn" class="clear-btn" type="button" aria-label="Change industry selection">X</button>
               </div>
             </label>
             <label class="select-field">
               <span>Job Area</span>
               <div class="select-control">
                 <select id="jobAreaSelect"></select>
-                <button id="clearJobAreaBtn" class="clear-btn" type="button" aria-label="Clear job area selection">X</button>
+              </div>
+              <div id="jobAreaSelectedControl" class="selected-control hidden">
+                <span id="jobAreaSelectedText" class="selected-pill"></span>
+                <button id="jobAreaSelectedClearBtn" class="clear-btn" type="button" aria-label="Change job area selection">X</button>
               </div>
             </label>
           </div>
@@ -71,7 +77,6 @@
           <h2 class="prompt-title"></h2>
           <div class="tags"></div>
         </div>
-        <p class="prompt-description">Editable template. Replace placeholders before use.</p>
         <textarea class="prompt-text" rows="7"></textarea>
         <div class="card-actions">
           <button class="copy-btn">Copy Prompt</button>
@@ -80,6 +85,6 @@
       </article>
     </template>
 
-    <script src="app.js?v=20260206g"></script>
+    <script src="app.js?v=20260206h"></script>
   </body>
 </html>

@@ -6,8 +6,12 @@ const cardTemplate = document.getElementById("promptCardTemplate");
 const emptyState = document.getElementById("emptyState");
 const industrySelect = document.getElementById("industrySelect");
 const jobAreaSelect = document.getElementById("jobAreaSelect");
-const clearIndustryBtn = document.getElementById("clearIndustryBtn");
-const clearJobAreaBtn = document.getElementById("clearJobAreaBtn");
+const industrySelectedControl = document.getElementById("industrySelectedControl");
+const industrySelectedText = document.getElementById("industrySelectedText");
+const industrySelectedClearBtn = document.getElementById("industrySelectedClearBtn");
+const jobAreaSelectedControl = document.getElementById("jobAreaSelectedControl");
+const jobAreaSelectedText = document.getElementById("jobAreaSelectedText");
+const jobAreaSelectedClearBtn = document.getElementById("jobAreaSelectedClearBtn");
 
 const ALL_JOB_AREAS = "All";
 const ALL_USE_CASES = "All";
@@ -112,8 +116,18 @@ function renderSetupControls() {
     option.selected = selectedJobArea === name;
     jobAreaSelect.appendChild(option);
   });
-  clearIndustryBtn.disabled = selectedIndustryId === ALL_INDUSTRIES_ID;
-  clearJobAreaBtn.disabled = selectedJobArea === ALL_JOB_AREAS;
+
+  const selectedIndustryName =
+    promptLibrary.industries.find((item) => item.id === selectedIndustryId)?.name || "All industries";
+  const industrySelected = selectedIndustryId !== ALL_INDUSTRIES_ID;
+  industrySelect.parentElement.classList.toggle("hidden", industrySelected);
+  industrySelectedControl.classList.toggle("hidden", !industrySelected);
+  industrySelectedText.textContent = selectedIndustryName;
+
+  const jobAreaSelected = selectedJobArea !== ALL_JOB_AREAS;
+  jobAreaSelect.parentElement.classList.toggle("hidden", jobAreaSelected);
+  jobAreaSelectedControl.classList.toggle("hidden", !jobAreaSelected);
+  jobAreaSelectedText.textContent = selectedJobArea;
 }
 
 function renderUseCasePills() {
@@ -171,10 +185,7 @@ function renderPrompts() {
     card.querySelector(".prompt-title").textContent = prompt.title;
 
     const tags = card.querySelector(".tags");
-    const industryTag = selectedIndustryId === ALL_INDUSTRIES_ID
-      ? "All industries"
-      : prompt.industryNames.find((name) => name !== "All industries") || prompt.industryNames[0];
-    tags.innerHTML = `<span class="tag">${prompt.jobArea}</span><span class="tag">${prompt.useCase}</span><span class="tag">${industryTag}</span>`;
+    tags.innerHTML = `<span class="tag">${prompt.jobArea}</span><span class="tag">${prompt.useCase}</span>`;
 
     const textarea = card.querySelector(".prompt-text");
     textarea.value = prompt.template;
@@ -220,7 +231,7 @@ async function init() {
       }
       refreshUI();
     });
-    clearIndustryBtn.addEventListener("click", () => {
+    industrySelectedClearBtn.addEventListener("click", () => {
       selectedIndustryId = ALL_INDUSTRIES_ID;
       const useCases = currentUseCases();
       if (selectedUseCase !== ALL_USE_CASES && !useCases.includes(selectedUseCase)) {
@@ -228,7 +239,7 @@ async function init() {
       }
       refreshUI();
     });
-    clearJobAreaBtn.addEventListener("click", () => {
+    jobAreaSelectedClearBtn.addEventListener("click", () => {
       selectedJobArea = ALL_JOB_AREAS;
       selectedUseCase = ALL_USE_CASES;
       refreshUI();
