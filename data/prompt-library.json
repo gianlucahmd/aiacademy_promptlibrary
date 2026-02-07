@@ -568,7 +568,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Draft a [FORMAT] about [TOPIC] for [AUDIENCE]. Keep it clear, practical, and under [LENGTH]."
+      "template": "I'm working on content drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a [FORMAT] about [TOPIC] for [AUDIENCE]. Keep it clear, practical, and under [LENGTH].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "mk-cr-1",
@@ -578,7 +578,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Review this draft: [PASTE TEXT]. Suggest edits to improve clarity, structure, and brand tone."
+      "template": "I'm working on content review for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this draft: [PASTE TEXT]. Suggest edits to improve clarity, structure, and brand tone.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "mk-wc-1",
@@ -588,7 +588,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Write hero headline, subheadline, and CTA copy for a web page about [OFFER] for [AUDIENCE]."
+      "template": "I'm working on website copywriting assistant for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nWrite hero headline, subheadline, and CTA copy for a web page about [OFFER] for [AUDIENCE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "sa-od-1",
@@ -598,7 +598,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Write a short outreach email to [PROSPECT TYPE] about [VALUE PROP]. Include one clear CTA."
+      "template": "I'm working on outreach drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nWrite a short outreach email to [PROSPECT TYPE] about [VALUE PROP]. Include one clear CTA.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "sa-ps-1",
@@ -608,7 +608,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Draft a proposal outline for [CLIENT] covering goals, approach, timeline, and expected outcomes."
+      "template": "I'm working on proposal support for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a proposal outline for [CLIENT] covering goals, approach, timeline, and expected outcomes.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "cs-rd-1",
@@ -618,7 +618,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Draft a response to this customer request: [PASTE REQUEST]. Tone: empathetic, concise, solution-focused."
+      "template": "I'm working on response drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a response to this customer request: [PASTE REQUEST]. Tone: empathetic, concise, solution-focused.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "cs-kb-1",
@@ -628,7 +628,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Create a help article for [ISSUE/TASK] with steps, common errors, and troubleshooting tips."
+      "template": "I'm working on knowledge base writing for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate a help article for [ISSUE/TASK] with steps, common errors, and troubleshooting tips.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "op-sd-1",
@@ -638,7 +638,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Create a standard operating procedure for [PROCESS]. Include purpose, scope, roles, and step-by-step instructions."
+      "template": "I'm working on sop drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate a standard operating procedure for [PROCESS]. Include purpose, scope, roles, and step-by-step instructions.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "op-pi-1",
@@ -648,7 +648,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Analyze this workflow: [PASTE PROCESS]. Identify bottlenecks and propose 5 improvements with expected impact."
+      "template": "I'm working on process improvement ideas for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nAnalyze this workflow: [PASTE PROCESS]. Identify bottlenecks and propose 5 improvements with expected impact.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "it-td-1",
@@ -658,7 +658,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Draft a runbook for [SYSTEM/PROCESS] with prerequisites, steps, rollback plan, and validation checks."
+      "template": "I'm working on technical documentation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a runbook for [SYSTEM/PROCESS] with prerequisites, steps, rollback plan, and validation checks.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "it-is-1",
@@ -668,7 +668,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Summarize this incident log: [PASTE LOG]. Include timeline, impact, root cause, resolution, and prevention actions."
+      "template": "I'm working on incident summaries for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize this incident log: [PASTE LOG]. Include timeline, impact, root cause, resolution, and prevention actions.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "it-eh-1",
@@ -678,7 +678,7 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "Create a troubleshooting checklist for an EHR integration issue using this context: [PASTE CONTEXT]."
+      "template": "I'm working on query and script assistant for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate a troubleshooting checklist for an EHR integration issue using this context: [PASTE CONTEXT].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "it-au-1",
@@ -688,7 +688,7 @@
       "industryIds": [
         "automotive"
       ],
-      "template": "Review this telematics pipeline summary: [PASTE SUMMARY]. Identify likely data quality issues and suggest validation checks."
+      "template": "I'm working on data and bi analysis support for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this telematics pipeline summary: [PASTE SUMMARY]. Identify likely data quality issues and suggest validation checks.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "fi-ba-1",
@@ -698,7 +698,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Summarize budget vs actual performance from this data: [PASTE DATA]. Explain top variances and likely causes."
+      "template": "I'm working on budget analysis for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize budget vs actual performance from this data: [PASTE DATA]. Explain top variances and likely causes.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "fi-fr-1",
@@ -708,7 +708,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Draft executive commentary for this monthly report: [PASTE METRICS]. Focus on drivers, risks, and next actions."
+      "template": "I'm working on financial report commentary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft executive commentary for this monthly report: [PASTE METRICS]. Focus on drivers, risks, and next actions.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "fi-fs-1",
@@ -718,7 +718,7 @@
       "industryIds": [
         "construction-engineering"
       ],
-      "template": "Build best/base/worst-case scenarios for a construction project budget with these assumptions: [PASTE ASSUMPTIONS]."
+      "template": "I'm working on forecast scenarios for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nBuild best/base/worst-case scenarios for a construction project budget with these assumptions: [PASTE ASSUMPTIONS].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "fi-fin-1",
@@ -728,7 +728,7 @@
       "industryIds": [
         "financial-services"
       ],
-      "template": "Draft a concise internal note explaining changes in key financial ratios using this data: [PASTE DATA]."
+      "template": "I'm working on financial report commentary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a concise internal note explaining changes in key financial ratios using this data: [PASTE DATA].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "hr-jd-1",
@@ -738,7 +738,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Write a job description for [ROLE] including responsibilities, required skills, and success indicators."
+      "template": "I'm working on job description writing for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nWrite a job description for [ROLE] including responsibilities, required skills, and success indicators.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "hr-tc-1",
@@ -748,7 +748,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Design a 15-minute training module on [TOPIC] with objectives, key points, and a short quiz."
+      "template": "I'm working on training content creation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDesign a 15-minute training module on [TOPIC] with objectives, key points, and a short quiz.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "hr-cg-1",
@@ -758,7 +758,7 @@
       "industryIds": [
         "consumer-goods"
       ],
-      "template": "Create a 30-day onboarding outline for a plant operations role with safety, quality, and process training milestones."
+      "template": "I'm working on onboarding plans for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate a 30-day onboarding outline for a plant operations role with safety, quality, and process training milestones.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "lr-cr-1",
@@ -768,7 +768,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Summarize key clauses in this contract: [PASTE CONTRACT]. Highlight obligations, risks, and items needing legal review."
+      "template": "I'm working on contract review support for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize key clauses in this contract: [PASTE CONTRACT]. Highlight obligations, risks, and items needing legal review.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "lr-rs-1",
@@ -778,7 +778,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "Summarize this regulatory text: [PASTE TEXT]. Explain practical implications for [BUSINESS UNIT]."
+      "template": "I'm working on regulation summarization for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize this regulatory text: [PASTE TEXT]. Explain practical implications for [BUSINESS UNIT].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "lr-hc-1",
@@ -788,7 +788,7 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "Draft a clear patient-facing privacy notice update related to [TOPIC], using plain language and compliant wording."
+      "template": "I'm working on policy drafting and rewrite for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a clear patient-facing privacy notice update related to [TOPIC], using plain language and compliant wording.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "mk-tech-1",
@@ -798,7 +798,7 @@
       "industryIds": [
         "technology"
       ],
-      "template": "Draft launch messaging for a new software feature targeting [USER TYPE]. Include value statement and 3 proof points."
+      "template": "I'm working on content drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft launch messaging for a new software feature targeting [USER TYPE]. Include value statement and 3 proof points.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-content-brainstorming",
@@ -808,7 +808,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on content brainstorming for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with content brainstorming for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-landing-page-review",
@@ -818,7 +818,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on landing page review for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with landing page review for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-tone-of-voice-analyzer",
@@ -828,7 +828,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on tone of voice analyzer for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with tone of voice analyzer for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-email-social-adaptation",
@@ -838,7 +838,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email and social adaptation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email and social adaptation for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-campaign-brief-creation",
@@ -848,7 +848,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on campaign brief creation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with campaign brief creation for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-message-house-development",
@@ -858,7 +858,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on message house development for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with message house development for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-press-release-drafting",
@@ -868,7 +868,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on press release drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with press release drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-seo-content-optimization",
@@ -878,7 +878,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on seo content optimization for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with seo content optimization for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-audience-persona-development",
@@ -888,7 +888,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on audience persona development for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with audience persona development for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-email-drafting",
@@ -898,7 +898,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-email-feedback",
@@ -908,7 +908,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-marketing-communications-colleague-situation-feedback",
@@ -918,7 +918,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-account-research-summary",
@@ -928,7 +928,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on account research summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with account research summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-objection-handling",
@@ -938,7 +938,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on objection handling for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with objection handling for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-meeting-follow-up",
@@ -948,7 +948,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on meeting follow-up for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with meeting follow-up for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-competitive-intelligence-briefs",
@@ -958,7 +958,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on competitive intelligence briefs for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with competitive intelligence briefs for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-discovery-question-design",
@@ -968,7 +968,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on discovery question design for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with discovery question design for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-call-summary-next-steps",
@@ -978,7 +978,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on call summary and next steps for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with call summary and next steps for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-renewal-expansion-strategy",
@@ -988,7 +988,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on renewal and expansion strategy for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with renewal and expansion strategy for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-pricing-packaging-positioning",
@@ -998,7 +998,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on pricing and packaging positioning for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with pricing and packaging positioning for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-pipeline-risk-review",
@@ -1008,7 +1008,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on pipeline risk review for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with pipeline risk review for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-executive-business-review-draft",
@@ -1018,7 +1018,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on executive business review draft for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with executive business review draft for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-email-drafting",
@@ -1028,7 +1028,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-email-feedback",
@@ -1038,7 +1038,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-sales-account-management-colleague-situation-feedback",
@@ -1048,7 +1048,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-case-summarization",
@@ -1058,7 +1058,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on case summarization for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with case summarization for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-ticket-prioritization",
@@ -1068,7 +1068,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on ticket prioritization for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with ticket prioritization for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-quality-review",
@@ -1078,7 +1078,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on quality review for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with quality review for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-response-personalization",
@@ -1088,7 +1088,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on response personalization for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with response personalization for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-escalation-summary",
@@ -1098,7 +1098,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on escalation summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with escalation summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-customer-sentiment-analysis",
@@ -1108,7 +1108,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on customer sentiment analysis for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with customer sentiment analysis for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-macro-template-creation",
@@ -1118,7 +1118,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on macro template creation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with macro template creation for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-sla-breach-communication",
@@ -1128,7 +1128,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on sla breach communication for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with sla breach communication for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-churn-risk-flagging",
@@ -1138,7 +1138,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on churn risk flagging for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with churn risk flagging for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-voice-of-customer-summary",
@@ -1148,7 +1148,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on voice of customer summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with voice of customer summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-email-drafting",
@@ -1158,7 +1158,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-email-feedback",
@@ -1168,7 +1168,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-customer-service-support-colleague-situation-feedback",
@@ -1178,7 +1178,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-meeting-to-action-plan",
@@ -1188,7 +1188,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on meeting to action plan for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with meeting to action plan for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-status-reporting",
@@ -1198,7 +1198,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on status reporting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with status reporting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-vendor-communication",
@@ -1208,7 +1208,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on vendor communication for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with vendor communication for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-capacity-planning-support",
@@ -1218,7 +1218,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on capacity planning support for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with capacity planning support for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-workflow-documentation-cleanup",
@@ -1228,7 +1228,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on workflow documentation cleanup for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with workflow documentation cleanup for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-cross-functional-handoff-plan",
@@ -1238,7 +1238,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on cross-functional handoff plan for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with cross-functional handoff plan for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-kpi-dashboard-narrative",
@@ -1248,7 +1248,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on kpi dashboard narrative for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with kpi dashboard narrative for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-root-cause-analysis-support",
@@ -1258,7 +1258,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on root cause analysis support for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with root cause analysis support for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-change-management-communication",
@@ -1268,7 +1268,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on change management communication for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with change management communication for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-resource-allocation-scenarios",
@@ -1278,7 +1278,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on resource allocation scenarios for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with resource allocation scenarios for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-email-drafting",
@@ -1288,7 +1288,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-email-feedback",
@@ -1298,7 +1298,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-operations-colleague-situation-feedback",
@@ -1308,7 +1308,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-requirements-to-tasks",
@@ -1318,7 +1318,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on requirements to tasks for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with requirements to tasks for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-architecture-decision-record-drafting",
@@ -1328,7 +1328,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on architecture decision record drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with architecture decision record drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-code-review-summary",
@@ -1338,7 +1338,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on code review summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with code review summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-postmortem-drafting",
@@ -1348,7 +1348,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on postmortem drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with postmortem drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-test-case-generation",
@@ -1358,7 +1358,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on test case generation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with test case generation for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-api-documentation-drafting",
@@ -1368,7 +1368,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on api documentation drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with api documentation drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-release-notes-drafting",
@@ -1378,7 +1378,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on release notes drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with release notes drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-monitoring-alert-tuning",
@@ -1388,7 +1388,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on monitoring alert tuning for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with monitoring alert tuning for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-email-drafting",
@@ -1398,7 +1398,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-email-feedback",
@@ -1408,7 +1408,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-it-engineering-colleague-situation-feedback",
@@ -1418,7 +1418,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-cost-optimization-ideas",
@@ -1428,7 +1428,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on cost optimization ideas for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with cost optimization ideas for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-policy-drafting",
@@ -1438,7 +1438,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on policy drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with policy drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-cash-flow-forecasting",
@@ -1448,7 +1448,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on cash flow forecasting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with cash flow forecasting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-variance-explanation-drafting",
@@ -1458,7 +1458,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on variance explanation drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with variance explanation drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-monthly-close-checklist",
@@ -1468,7 +1468,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on monthly close checklist for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with monthly close checklist for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-board-update-summary",
@@ -1478,7 +1478,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on board update summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with board update summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-scenario-sensitivity-analysis",
@@ -1488,7 +1488,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on scenario sensitivity analysis for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with scenario sensitivity analysis for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-expense-policy-qna",
@@ -1498,7 +1498,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on expense policy q&a for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with expense policy q&a for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-procurement-savings-analysis",
@@ -1508,7 +1508,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on procurement savings analysis for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with procurement savings analysis for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-email-drafting",
@@ -1518,7 +1518,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-email-feedback",
@@ -1528,7 +1528,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-finance-colleague-situation-feedback",
@@ -1538,7 +1538,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-interview-kit-creation",
@@ -1548,7 +1548,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on interview kit creation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with interview kit creation for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-policy-communication",
@@ -1558,7 +1558,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on policy communication for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with policy communication for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-performance-review-drafting",
@@ -1568,7 +1568,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on performance review drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with performance review drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-employee-feedback-summary",
@@ -1578,7 +1578,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on employee feedback summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with employee feedback summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-learning-path-design",
@@ -1588,7 +1588,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on learning path design for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with learning path design for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-internal-communications-drafting",
@@ -1598,7 +1598,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on internal communications drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with internal communications drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-workforce-planning-scenarios",
@@ -1608,7 +1608,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on workforce planning scenarios for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with workforce planning scenarios for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-engagement-survey-analysis",
@@ -1618,7 +1618,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on engagement survey analysis for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with engagement survey analysis for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-career-framework-drafting",
@@ -1628,7 +1628,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on career framework drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with career framework drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-email-drafting",
@@ -1638,7 +1638,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-email-feedback",
@@ -1648,7 +1648,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-hr-learning-talent-colleague-situation-feedback",
@@ -1658,7 +1658,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-risk-register-support",
@@ -1668,7 +1668,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on risk register support for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with risk register support for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-audit-evidence-documentation",
@@ -1678,7 +1678,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on audit evidence documentation for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with audit evidence documentation for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-clause-comparison-summary",
@@ -1688,7 +1688,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on clause comparison summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with clause comparison summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-compliance-gap-assessment",
@@ -1698,7 +1698,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on compliance gap assessment for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with compliance gap assessment for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-due-diligence-checklist",
@@ -1708,7 +1708,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on due diligence checklist for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with due diligence checklist for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-privacy-notice-drafting",
@@ -1718,7 +1718,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on privacy notice drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with privacy notice drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-obligation-tracking-summary",
@@ -1728,7 +1728,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on obligation tracking summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with obligation tracking summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-legal-hold-communication",
@@ -1738,7 +1738,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on legal hold communication for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with legal hold communication for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-third-party-risk-summary",
@@ -1748,7 +1748,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on third-party risk summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with third-party risk summary for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-email-drafting",
@@ -1758,7 +1758,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-email-feedback",
@@ -1768,7 +1768,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-legal-risk-compliance-colleague-situation-feedback",
@@ -1778,7 +1778,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "[PLACEHOLDER]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     }
   ]
 }

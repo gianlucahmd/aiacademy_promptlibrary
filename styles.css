@@ -34,8 +34,12 @@ body {
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(980px 340px at 18% 110%, rgba(53, 90, 190, 0.18), transparent 72%),
-    radial-gradient(980px 340px at 82% 105%, rgba(255, 59, 124, 0.16), transparent 72%);
+    radial-gradient(980px 340px at 18% 110%, rgba(53, 90, 190, 0.15), transparent 72%),
+    radial-gradient(980px 340px at 82% 105%, rgba(255, 59, 124, 0.13), transparent 72%),
+    radial-gradient(circle at 20% 18%, rgba(255, 255, 255, 0.24) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 74% 28%, rgba(255, 255, 255, 0.18) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 56% 62%, rgba(255, 255, 255, 0.2) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 34% 74%, rgba(255, 255, 255, 0.16) 0 1px, transparent 1.5px);
   pointer-events: none;
   z-index: -1;
 }
@@ -92,6 +96,7 @@ h1 {
   font-family: "JetBrains Mono", monospace;
   font-size: clamp(1.95rem, 5.8vw, 3.25rem);
   line-height: 1.08;
+  text-transform: uppercase;
 }
 
 h1 span {
@@ -106,6 +111,28 @@ h1 span {
   margin: 1rem auto 0;
   max-width: 730px;
   color: #d9deef;
+}
+
+.hero-links {
+  margin: 1rem auto 0;
+  max-width: 760px;
+  color: rgba(199, 208, 234, 0.75);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.hero-links p {
+  margin: 0.5rem 0;
+}
+
+.hero-links a {
+  color: #9cc1ff;
+  font-weight: 600;
+}
+
+.hero-links a:hover {
+  color: #b8d2ff;
 }
 
 .controls {
