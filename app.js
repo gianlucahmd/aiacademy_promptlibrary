@@ -12,15 +12,23 @@ const industrySelectedClearBtn = document.getElementById("industrySelectedClearB
 const jobAreaSelectedControl = document.getElementById("jobAreaSelectedControl");
 const jobAreaSelectedText = document.getElementById("jobAreaSelectedText");
 const jobAreaSelectedClearBtn = document.getElementById("jobAreaSelectedClearBtn");
+const searchInput = document.getElementById("searchInput");
+const searchClearBtn = document.getElementById("searchClearBtn");
 
 const ALL_JOB_AREAS = "All";
 const ALL_USE_CASES = "All";
 const ALL_INDUSTRIES_ID = "all";
 
 let promptLibrary = { industries: [], jobAreas: [], prompts: [] };
+let mappedPrompts = [];
 let selectedIndustryId = ALL_INDUSTRIES_ID;
 let selectedJobArea = ALL_JOB_AREAS;
 let selectedUseCase = ALL_USE_CASES;
+let searchQuery = "";
+
+function hasActiveSearch() {
+  return searchQuery.trim() !== "";
+}
 
 function mapPrompt(prompt) {
   const jobArea = promptLibrary.jobAreas.find((item) => item.id === prompt.jobAreaId);
@@ -30,7 +38,7 @@ function mapPrompt(prompt) {
     return industry ? industry.name : id;
   });
 
-  return {
+  const mappedPrompt = {
     id: prompt.id,
     title: prompt.title,
     template: prompt.template,
@@ -41,10 +49,22 @@ function mapPrompt(prompt) {
     industryIds: prompt.industryIds,
     industryNames,
   };
+
+  mappedPrompt.searchText = [
+    mappedPrompt.title,
+    mappedPrompt.template,
+    mappedPrompt.jobArea,
+    mappedPrompt.useCase,
+    mappedPrompt.industryNames.join(" "),
+  ]
+    .join(" ")
+    .toLowerCase();
+
+  return mappedPrompt;
 }
 
 function allMappedPrompts() {
-  return promptLibrary.prompts.map(mapPrompt);
+  return mappedPrompts;
 }
 
 function filteredPrompts() {
@@ -58,6 +78,17 @@ function filteredPrompts() {
     const useCaseMatch = selectedUseCase === ALL_USE_CASES || prompt.useCase === selectedUseCase;
     return industryMatch && areaMatch && useCaseMatch;
   });
+}
+
+function searchedPrompts() {
+  const normalizedQuery = searchQuery.trim().toLowerCase();
+  if (!normalizedQuery) {
+    return filteredPrompts();
+  }
+
+  return filteredPrompts()
+    .filter((prompt) => prompt.searchText.includes(normalizedQuery))
+    .sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: "base" }));
 }
 
 function currentUseCases() {
@@ -128,6 +159,8 @@ function renderSetupControls() {
   jobAreaSelect.parentElement.classList.toggle("hidden", jobAreaSelected);
   jobAreaSelectedControl.classList.toggle("hidden", !jobAreaSelected);
   jobAreaSelectedText.textContent = selectedJobArea;
+
+  searchClearBtn.disabled = !hasActiveSearch();
 }
 
 function renderUseCasePills() {
@@ -174,9 +207,19 @@ async function copyText(button, statusNode, text) {
 
 function renderPrompts() {
   promptGrid.innerHTML = "";
-  const current = filteredPrompts();
+  const current = searchedPrompts();
+  const searchActive = hasActiveSearch();
+
   emptyState.classList.toggle("hidden", current.length !== 0);
-  resultsMeta.textContent = `Showing ${current.length} of ${allMappedPrompts().length} prompts`;
+  if (current.length === 0) {
+    emptyState.textContent = searchActive
+      ? `No prompts matched "${searchQuery.trim()}". Try a different keyword.`
+      : "No prompts match your filters yet.";
+  }
+
+  resultsMeta.textContent = searchActive
+    ? `Showing ${current.length} matching prompts (A-Z)`
+    : `Showing ${current.length} of ${allMappedPrompts().length} prompts`;
 
   current.forEach((prompt) => {
     const node = cardTemplate.content.cloneNode(true);
@@ -199,6 +242,7 @@ function renderPrompts() {
 }
 
 function refreshUI() {
+  searchInput.value = searchQuery;
   renderSetupControls();
   renderUseCasePills();
   renderPrompts();
@@ -210,6 +254,7 @@ async function loadPromptLibrary() {
     throw new Error("Could not load prompt library data");
   }
   promptLibrary = await response.json();
+  mappedPrompts = promptLibrary.prompts.map(mapPrompt);
 }
 
 async function init() {
@@ -243,6 +288,15 @@ async function init() {
       selectedJobArea = ALL_JOB_AREAS;
       selectedUseCase = ALL_USE_CASES;
       refreshUI();
+    });
+    searchInput.addEventListener("input", () => {
+      searchQuery = searchInput.value;
+      refreshUI();
+    });
+    searchClearBtn.addEventListener("click", () => {
+      searchQuery = "";
+      refreshUI();
+      searchInput.focus();
     });
     refreshUI();
   } catch (error) {

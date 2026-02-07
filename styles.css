@@ -140,15 +140,84 @@ h1 span {
   border: 1px solid var(--line);
   border-radius: 1rem;
   padding: 1rem 1rem 0.8rem;
+  display: grid;
+  grid-template-columns: minmax(320px, 520px) 220px 220px;
+  gap: 0.8rem 0.75rem;
+  align-items: end;
+}
+
+.search-row {
+  margin: 0;
+  grid-column: 1;
+}
+
+.search-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.search-field span {
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.search-control {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.search-control input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: rgba(24, 29, 45, 0.78);
+  color: var(--text);
+  padding: 0.54rem 0.62rem;
+  font-size: 0.9rem;
+}
+
+.search-control input::placeholder {
+  color: #8d98b8;
+}
+
+.search-control input:focus-visible {
+  outline: 2px solid rgba(77, 154, 255, 0.55);
+  outline-offset: 1px;
+}
+
+.search-clear-btn {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(24, 29, 45, 0.78);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.4rem 0.52rem;
+  cursor: pointer;
+}
+
+.search-clear-btn:hover {
+  border-color: var(--line-strong);
+  color: var(--text);
+}
+
+.search-clear-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 .setup-panel {
-  margin-bottom: 0.8rem;
+  margin: 0;
+  grid-column: 2 / 4;
 }
 
 .setup-grid {
   display: grid;
-  grid-template-columns: minmax(160px, 0.8fr) minmax(220px, 1fr);
+  grid-template-columns: 220px 220px;
   gap: 0.5rem;
   align-items: end;
 }
@@ -218,6 +287,7 @@ h1 span {
 
 .filter-row {
   margin-bottom: 0.8rem;
+  grid-column: 1 / -1;
 }
 
 .filter-label {
@@ -259,6 +329,7 @@ h1 span {
 .results-meta {
   margin: 0.7rem 0 0;
   color: var(--muted);
+  grid-column: 1 / -1;
 }
 
 .prompt-grid {
@@ -362,6 +433,15 @@ h1 span {
 }
 
 @media (max-width: 880px) {
+  .controls {
+    display: block;
+  }
+
+  .search-row,
+  .setup-panel {
+    margin-bottom: 0.8rem;
+  }
+
   .hero {
     text-align: left;
     padding-top: 2.2rem;

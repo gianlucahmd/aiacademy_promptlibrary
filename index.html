@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260206h" />
+    <link rel="stylesheet" href="styles.css?v=20260207d" />
   </head>
   <body>
     <div class="bg-mesh" aria-hidden="true"></div>
@@ -48,6 +48,15 @@
       </section>
 
       <section class="controls" aria-label="Prompt filters">
+        <div class="search-row">
+          <label class="search-field" for="searchInput">
+            <span>Search</span>
+            <div class="search-control">
+              <input id="searchInput" type="text" placeholder="Search prompts..." autocomplete="off" />
+              <button id="searchClearBtn" class="search-clear-btn" type="button" aria-label="Clear search query">X</button>
+            </div>
+          </label>
+        </div>
         <div id="setupPanel" class="setup-panel">
           <div class="setup-grid">
             <label class="select-field">
@@ -98,6 +107,6 @@
       </article>
     </template>
 
-    <script src="app.js?v=20260206h"></script>
+    <script src="app.js?v=20260207b"></script>
   </body>
 </html>
