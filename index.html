@@ -10,15 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260207d" />
+    <link rel="stylesheet" href="styles.css?v=20260207n" />
   </head>
   <body>
     <div class="bg-mesh" aria-hidden="true"></div>
 
     <header class="topbar">
       <div class="brand">
-        <span class="brand-mark">AI</span>
-        <span class="brand-text">ACADEMY</span>
+        <span>AI</span>
+        <span>ACADEMY</span>
       </div>
     </header>
 
@@ -29,22 +29,18 @@
           <span class="accent-pink">SEE WHAT'S POSSIBLE WITH AI AT WORK</span>
         </h1>
         <p class="hero-copy">
-          This is a collection of prompts showing how AI can help in your work. Each prompt is designed to
-          be remixed: change the context, tone, constraints, and output format to fit your needs.
+          This is an asset for the
+          <button
+            id="adoptionInfoTrigger"
+            class="info-trigger"
+            type="button"
+            aria-label="More information about the AI Academy Adoption Programme"
+            aria-controls="adoptionInfoDialog"
+          >
+            AI Academy Adoption Programme
+          </button>. It's a collection of prompts meant to
+          inspire our learners on what AI can do for them.
         </p>
-        <p class="hero-copy">
-          Filter by your industry and job, try some prompts out, adapt what works, and make them your own.
-        </p>
-        <div class="hero-links">
-          <p>
-            Are you already part of an AI Academy adoption Programme?
-            <a href="http://newschool.ai-academy.com" target="_blank" rel="noopener noreferrer">See more resources</a>
-          </p>
-          <p>
-            Are you interested in joining an AI Academy adoption programme?
-            <a href="https://www.ai-academy.com/corporate" target="_blank" rel="noopener noreferrer">Reach out</a>
-          </p>
-        </div>
       </section>
 
       <section class="controls" aria-label="Prompt filters">
@@ -57,31 +53,20 @@
             </div>
           </label>
         </div>
-        <div id="setupPanel" class="setup-panel">
-          <div class="setup-grid">
-            <label class="select-field">
-              <span>Industry</span>
-              <div class="select-control">
-                <select id="industrySelect"></select>
-              </div>
-              <div id="industrySelectedControl" class="selected-control hidden">
-                <span id="industrySelectedText" class="selected-pill"></span>
-                <button id="industrySelectedClearBtn" class="clear-btn" type="button" aria-label="Change industry selection">X</button>
-              </div>
-            </label>
-            <label class="select-field">
-              <span>Job Area</span>
-              <div class="select-control">
-                <select id="jobAreaSelect"></select>
-              </div>
-              <div id="jobAreaSelectedControl" class="selected-control hidden">
-                <span id="jobAreaSelectedText" class="selected-pill"></span>
-                <button id="jobAreaSelectedClearBtn" class="clear-btn" type="button" aria-label="Change job area selection">X</button>
-              </div>
-            </label>
+        <p class="controls-intro">
+          Filter by your industry and job, try some prompts out, adapt what works, and make them your own.
+        </p>
+        <div class="setup-panel">
+          <div class="filter-row">
+            <p class="filter-label">Industry</p>
+            <div id="industryPills" class="pill-wrap"></div>
+          </div>
+          <div id="jobAreaRow" class="filter-row">
+            <p class="filter-label">Job Area</p>
+            <div id="jobAreaPills" class="pill-wrap"></div>
           </div>
         </div>
-        <div class="filter-row">
+        <div id="useCaseRow" class="filter-row">
           <p class="filter-label">Use Case</p>
           <div id="useCasePills" class="pill-wrap"></div>
           <p id="useCaseHint" class="filter-hint hidden">Select a specific job area to see its use cases.</p>
@@ -107,6 +92,18 @@
       </article>
     </template>
 
-    <script src="app.js?v=20260207b"></script>
+    <dialog id="adoptionInfoDialog" class="info-dialog" aria-label="Adoption programme information">
+      <button id="adoptionInfoClose" class="info-dialog-close" type="button" aria-label="Close information dialog">X</button>
+      <p>
+        Are you already part of the AI Academy Adoption Programme?
+        <a href="http://newschool.ai-academy.com" target="_blank" rel="noopener noreferrer">See more resources</a>
+      </p>
+      <p>
+        Are you interested in joining an AI Academy Adoption Programme?
+        <a href="https://www.ai-academy.com/corporate" target="_blank" rel="noopener noreferrer">Reach out</a>
+      </p>
+    </dialog>
+
+    <script src="app.js?v=20260207g"></script>
   </body>
 </html>

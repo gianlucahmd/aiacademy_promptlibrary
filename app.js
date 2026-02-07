@@ -1,19 +1,18 @@
 const useCasePills = document.getElementById("useCasePills");
 const useCaseHint = document.getElementById("useCaseHint");
+const useCaseRow = document.getElementById("useCaseRow");
 const resultsMeta = document.getElementById("resultsMeta");
 const promptGrid = document.getElementById("promptGrid");
 const cardTemplate = document.getElementById("promptCardTemplate");
 const emptyState = document.getElementById("emptyState");
-const industrySelect = document.getElementById("industrySelect");
-const jobAreaSelect = document.getElementById("jobAreaSelect");
-const industrySelectedControl = document.getElementById("industrySelectedControl");
-const industrySelectedText = document.getElementById("industrySelectedText");
-const industrySelectedClearBtn = document.getElementById("industrySelectedClearBtn");
-const jobAreaSelectedControl = document.getElementById("jobAreaSelectedControl");
-const jobAreaSelectedText = document.getElementById("jobAreaSelectedText");
-const jobAreaSelectedClearBtn = document.getElementById("jobAreaSelectedClearBtn");
+const industryPills = document.getElementById("industryPills");
+const jobAreaPills = document.getElementById("jobAreaPills");
+const jobAreaRow = document.getElementById("jobAreaRow");
 const searchInput = document.getElementById("searchInput");
 const searchClearBtn = document.getElementById("searchClearBtn");
+const adoptionInfoTrigger = document.getElementById("adoptionInfoTrigger");
+const adoptionInfoDialog = document.getElementById("adoptionInfoDialog");
+const adoptionInfoClose = document.getElementById("adoptionInfoClose");
 
 const ALL_JOB_AREAS = "All";
 const ALL_USE_CASES = "All";
@@ -25,6 +24,58 @@ let selectedIndustryId = ALL_INDUSTRIES_ID;
 let selectedJobArea = ALL_JOB_AREAS;
 let selectedUseCase = ALL_USE_CASES;
 let searchQuery = "";
+
+function initInfoDialog() {
+  if (!adoptionInfoDialog || !adoptionInfoTrigger || !adoptionInfoClose) {
+    return;
+  }
+
+  const openDialog = () => {
+    if (typeof adoptionInfoDialog.showModal === "function") {
+      if (!adoptionInfoDialog.open) {
+        adoptionInfoDialog.showModal();
+      }
+      return;
+    }
+    adoptionInfoDialog.setAttribute("open", "");
+  };
+
+  const closeDialog = () => {
+    if (typeof adoptionInfoDialog.close === "function" && adoptionInfoDialog.open) {
+      adoptionInfoDialog.close();
+      return;
+    }
+    adoptionInfoDialog.removeAttribute("open");
+  };
+
+  adoptionInfoTrigger.addEventListener("click", (event) => {
+    event.preventDefault();
+    openDialog();
+  });
+
+  adoptionInfoClose.addEventListener("click", () => {
+    closeDialog();
+    adoptionInfoTrigger.focus();
+  });
+
+  adoptionInfoDialog.addEventListener("click", (event) => {
+    const rect = adoptionInfoDialog.getBoundingClientRect();
+    const isOutside =
+      event.clientX < rect.left ||
+      event.clientX > rect.right ||
+      event.clientY < rect.top ||
+      event.clientY > rect.bottom;
+    if (isOutside) {
+      closeDialog();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && adoptionInfoDialog.open) {
+      closeDialog();
+    }
+  });
+}
 
 function hasActiveSearch() {
   return searchQuery.trim() !== "";
@@ -91,6 +142,22 @@ function searchedPrompts() {
     .sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: "base" }));
 }
 
+function currentJobAreas() {
+  const availableAreaIds = new Set(
+    promptLibrary.prompts
+      .filter((prompt) => {
+        return (
+          selectedIndustryId === ALL_INDUSTRIES_ID ||
+          prompt.industryIds.includes(selectedIndustryId) ||
+          prompt.industryIds.includes(ALL_INDUSTRIES_ID)
+        );
+      })
+      .map((prompt) => prompt.jobAreaId)
+  );
+
+  return promptLibrary.jobAreas.filter((area) => availableAreaIds.has(area.id)).map((area) => area.name);
+}
+
 function currentUseCases() {
   if (selectedJobArea === ALL_JOB_AREAS) {
     return [];
@@ -128,43 +195,80 @@ function makePill(label, active, onClick) {
 }
 
 function renderSetupControls() {
-  industrySelect.innerHTML = "";
-  jobAreaSelect.innerHTML = "";
+  industryPills.innerHTML = "";
+  jobAreaPills.innerHTML = "";
 
-  promptLibrary.industries.forEach((industry) => {
-    const option = document.createElement("option");
-    option.value = industry.id;
-    option.textContent = industry.name;
-    option.selected = selectedIndustryId === industry.id;
-    industrySelect.appendChild(option);
+  const reservedIndustryNames = new Set(["all", "all industries"]);
+  const industries = [
+    { id: ALL_INDUSTRIES_ID, name: ALL_JOB_AREAS },
+    ...promptLibrary.industries.filter((industry) => {
+      const normalizedName = String(industry.name || "")
+        .trim()
+        .toLowerCase();
+      return industry.id !== ALL_INDUSTRIES_ID && !reservedIndustryNames.has(normalizedName);
+    }),
+  ];
+  industries.forEach((industry) => {
+    industryPills.appendChild(
+      makePill(industry.name, selectedIndustryId === industry.id, () => {
+        selectedIndustryId = industry.id;
+
+        if (selectedIndustryId === ALL_INDUSTRIES_ID) {
+          selectedJobArea = ALL_JOB_AREAS;
+          selectedUseCase = ALL_USE_CASES;
+        } else {
+          const areas = currentJobAreas();
+          if (selectedJobArea !== ALL_JOB_AREAS && !areas.includes(selectedJobArea)) {
+            selectedJobArea = ALL_JOB_AREAS;
+            selectedUseCase = ALL_USE_CASES;
+          }
+          const useCases = currentUseCases();
+          if (selectedUseCase !== ALL_USE_CASES && !useCases.includes(selectedUseCase)) {
+            selectedUseCase = ALL_USE_CASES;
+          }
+        }
+
+        refreshUI();
+      })
+    );
   });
 
-  const areaNames = [ALL_JOB_AREAS, ...promptLibrary.jobAreas.map((area) => area.name)];
-  areaNames.forEach((name) => {
-    const option = document.createElement("option");
-    option.value = name;
-    option.textContent = name;
-    option.selected = selectedJobArea === name;
-    jobAreaSelect.appendChild(option);
-  });
+  const showDetailTabs = selectedIndustryId !== ALL_INDUSTRIES_ID;
+  jobAreaRow.classList.toggle("hidden", !showDetailTabs);
+  useCaseRow.classList.toggle("hidden", !showDetailTabs);
 
-  const selectedIndustryName =
-    promptLibrary.industries.find((item) => item.id === selectedIndustryId)?.name || "All industries";
-  const industrySelected = selectedIndustryId !== ALL_INDUSTRIES_ID;
-  industrySelect.parentElement.classList.toggle("hidden", industrySelected);
-  industrySelectedControl.classList.toggle("hidden", !industrySelected);
-  industrySelectedText.textContent = selectedIndustryName;
+  if (showDetailTabs) {
+    const areaNames = [ALL_JOB_AREAS, ...currentJobAreas()];
+    if (selectedJobArea !== ALL_JOB_AREAS && !areaNames.includes(selectedJobArea)) {
+      selectedJobArea = ALL_JOB_AREAS;
+      selectedUseCase = ALL_USE_CASES;
+    }
 
-  const jobAreaSelected = selectedJobArea !== ALL_JOB_AREAS;
-  jobAreaSelect.parentElement.classList.toggle("hidden", jobAreaSelected);
-  jobAreaSelectedControl.classList.toggle("hidden", !jobAreaSelected);
-  jobAreaSelectedText.textContent = selectedJobArea;
+    areaNames.forEach((name) => {
+      jobAreaPills.appendChild(
+        makePill(name, selectedJobArea === name, () => {
+          selectedJobArea = name;
+          const useCases = currentUseCases();
+          if (selectedUseCase !== ALL_USE_CASES && !useCases.includes(selectedUseCase)) {
+            selectedUseCase = ALL_USE_CASES;
+          }
+          refreshUI();
+        })
+      );
+    });
+  }
 
   searchClearBtn.disabled = !hasActiveSearch();
 }
 
 function renderUseCasePills() {
   useCasePills.innerHTML = "";
+
+  if (selectedIndustryId === ALL_INDUSTRIES_ID) {
+    useCaseHint.classList.add("hidden");
+    return;
+  }
+
   const useCases = currentUseCases();
   if (selectedUseCase !== ALL_USE_CASES && !useCases.includes(selectedUseCase)) {
     selectedUseCase = ALL_USE_CASES;
@@ -259,36 +363,8 @@ async function loadPromptLibrary() {
 
 async function init() {
   try {
+    initInfoDialog();
     await loadPromptLibrary();
-    industrySelect.addEventListener("change", () => {
-      selectedIndustryId = industrySelect.value;
-      const useCases = currentUseCases();
-      if (selectedUseCase !== ALL_USE_CASES && !useCases.includes(selectedUseCase)) {
-        selectedUseCase = ALL_USE_CASES;
-      }
-      refreshUI();
-    });
-    jobAreaSelect.addEventListener("change", () => {
-      selectedJobArea = jobAreaSelect.value;
-      const useCases = currentUseCases();
-      if (selectedUseCase !== ALL_USE_CASES && !useCases.includes(selectedUseCase)) {
-        selectedUseCase = ALL_USE_CASES;
-      }
-      refreshUI();
-    });
-    industrySelectedClearBtn.addEventListener("click", () => {
-      selectedIndustryId = ALL_INDUSTRIES_ID;
-      const useCases = currentUseCases();
-      if (selectedUseCase !== ALL_USE_CASES && !useCases.includes(selectedUseCase)) {
-        selectedUseCase = ALL_USE_CASES;
-      }
-      refreshUI();
-    });
-    jobAreaSelectedClearBtn.addEventListener("click", () => {
-      selectedJobArea = ALL_JOB_AREAS;
-      selectedUseCase = ALL_USE_CASES;
-      refreshUI();
-    });
     searchInput.addEventListener("input", () => {
       searchQuery = searchInput.value;
       refreshUI();
