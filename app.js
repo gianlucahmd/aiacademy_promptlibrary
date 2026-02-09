@@ -353,7 +353,7 @@ function refreshUI() {
 }
 
 async function loadPromptLibrary() {
-  const response = await fetch("data/prompt-library.json?v=20260206f");
+  const response = await fetch("data/prompt-library.json?v=20260209b");
   if (!response.ok) {
     throw new Error("Could not load prompt library data");
   }
