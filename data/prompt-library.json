@@ -567,6 +567,18 @@
           "name": "Production planning"
         },
         {
+          "id": "quality-deviation-summary",
+          "name": "Quality deviation summary"
+        },
+        {
+          "id": "shift-handover-brief",
+          "name": "Shift handover brief"
+        },
+        {
+          "id": "maintenance-priority-planning",
+          "name": "Maintenance priority planning"
+        },
+        {
           "id": "email-drafting",
           "name": "Email drafting"
         },
@@ -582,11 +594,23 @@
     },
     {
       "id": "market-access-healthcare",
-      "name": "Market Access",
+      "name": "Market Access (Healthcare)",
       "useCases": [
         {
           "id": "value-dossier-briefing",
           "name": "Value dossier briefing"
+        },
+        {
+          "id": "payer-objection-response",
+          "name": "Payer objection response"
+        },
+        {
+          "id": "reimbursement-landscape-summary",
+          "name": "Reimbursement landscape summary"
+        },
+        {
+          "id": "access-strategy-scenario",
+          "name": "Access strategy scenario"
         },
         {
           "id": "email-drafting",
@@ -611,6 +635,52 @@
           "name": "Policy stakeholder brief"
         },
         {
+          "id": "legislative-monitoring-summary",
+          "name": "Legislative monitoring summary"
+        },
+        {
+          "id": "policymaker-meeting-brief",
+          "name": "Policymaker meeting brief"
+        },
+        {
+          "id": "consultation-response-outline",
+          "name": "Consultation response outline"
+        },
+        {
+          "id": "email-drafting",
+          "name": "Email drafting"
+        },
+        {
+          "id": "email-feedback",
+          "name": "Email feedback"
+        },
+        {
+          "id": "colleague-situation-feedback",
+          "name": "Colleague situation feedback"
+        }
+      ]
+    },
+    {
+      "id": "medical-affairs",
+      "name": "Medical Affairs",
+      "useCases": [
+        {
+          "id": "medical-information-response",
+          "name": "Medical information response"
+        },
+        {
+          "id": "evidence-gap-summary",
+          "name": "Evidence gap summary"
+        },
+        {
+          "id": "scientific-narrative-brief",
+          "name": "Scientific narrative brief"
+        },
+        {
+          "id": "congress-insight-summary",
+          "name": "Congress insight summary"
+        },
+        {
           "id": "email-drafting",
           "name": "Email drafting"
         },
@@ -633,6 +703,18 @@
           "name": "Strategic options analysis"
         },
         {
+          "id": "market-prioritization-framework",
+          "name": "Market prioritization framework"
+        },
+        {
+          "id": "growth-hypothesis-testing",
+          "name": "Growth hypothesis testing"
+        },
+        {
+          "id": "strategic-risk-register",
+          "name": "Strategic risk register"
+        },
+        {
           "id": "email-drafting",
           "name": "Email drafting"
         },
@@ -653,6 +735,18 @@
         {
           "id": "executive-communication-planning",
           "name": "Executive communication planning"
+        },
+        {
+          "id": "decision-memo-drafting",
+          "name": "Decision memo drafting"
+        },
+        {
+          "id": "all-hands-message-draft",
+          "name": "All-hands message draft"
+        },
+        {
+          "id": "leadership-alignment-brief",
+          "name": "Leadership alignment brief"
         },
         {
           "id": "email-drafting",
@@ -1898,7 +1992,37 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on production planning for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with production planning for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on production planning for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nBuild a production plan for [PRODUCT/LINE] over [TIMEFRAME], including output targets, constraints, and priority trade-offs.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-manufacturing-quality-deviation-summary",
+      "title": "Quality deviation summary",
+      "jobAreaId": "manufacturing",
+      "useCaseId": "quality-deviation-summary",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on quality deviation summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize this quality deviation: [PASTE DETAILS]. Include likely root causes, impact, immediate containment actions, and follow-up checks.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-manufacturing-shift-handover-brief",
+      "title": "Shift handover brief",
+      "jobAreaId": "manufacturing",
+      "useCaseId": "shift-handover-brief",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on shift handover brief for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a shift handover brief from this information: [PASTE NOTES]. Include current status, open issues, safety/quality flags, and next-shift priorities.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-manufacturing-maintenance-priority-planning",
+      "title": "Maintenance priority planning",
+      "jobAreaId": "manufacturing",
+      "useCaseId": "maintenance-priority-planning",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on maintenance priority planning for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nPrioritize these maintenance items: [PASTE BACKLOG]. Rank by risk and business impact, and propose a practical execution order.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-manufacturing-email-drafting",
@@ -1908,7 +2032,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft an email to [RECIPIENT] about [TOPIC], with a clear objective, concise key points, and a specific call to action.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-manufacturing-email-feedback",
@@ -1918,7 +2042,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this email draft: [PASTE DRAFT]. Suggest targeted edits to improve clarity, tone, structure, and likelihood of response.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-manufacturing-colleague-situation-feedback",
@@ -1928,7 +2052,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this colleague situation: [DESCRIBE SITUATION]. Provide practical feedback, risks to watch, and a recommended response approach.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-market-access-healthcare-value-dossier-briefing",
@@ -1938,7 +2062,37 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on value dossier briefing for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with value dossier briefing for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on value dossier briefing for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a value dossier briefing for [THERAPY/PRODUCT] focused on clinical value, economic evidence, and key payer considerations for [MARKET].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-market-access-healthcare-payer-objection-response",
+      "title": "Payer objection response",
+      "jobAreaId": "market-access-healthcare",
+      "useCaseId": "payer-objection-response",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on payer objection response for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDevelop responses to these payer objections: [PASTE OBJECTIONS]. Address evidence, budget impact, and access implications in clear language.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-market-access-healthcare-reimbursement-landscape-summary",
+      "title": "Reimbursement landscape summary",
+      "jobAreaId": "market-access-healthcare",
+      "useCaseId": "reimbursement-landscape-summary",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on reimbursement landscape summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize the reimbursement landscape for [THERAPY/PRODUCT] in [GEOGRAPHY], including relevant pathways, requirements, and likely barriers.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-market-access-healthcare-access-strategy-scenario",
+      "title": "Access strategy scenario",
+      "jobAreaId": "market-access-healthcare",
+      "useCaseId": "access-strategy-scenario",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on access strategy scenario for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate best/base/worst access scenarios for [THERAPY/PRODUCT] in [MARKET], with assumptions, risks, and recommended actions for each.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-market-access-healthcare-email-drafting",
@@ -1948,7 +2102,7 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft an email to [RECIPIENT] about [TOPIC], with a clear objective, concise key points, and a specific call to action.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-market-access-healthcare-email-feedback",
@@ -1958,7 +2112,7 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this email draft: [PASTE DRAFT]. Suggest targeted edits to improve clarity, tone, structure, and likelihood of response.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-market-access-healthcare-colleague-situation-feedback",
@@ -1968,7 +2122,7 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this colleague situation: [DESCRIBE SITUATION]. Provide practical feedback, risks to watch, and a recommended response approach.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-government-affairs-healthcare-policy-stakeholder-brief",
@@ -1978,7 +2132,37 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on policy stakeholder brief for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with policy stakeholder brief for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on policy stakeholder brief for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nPrepare a stakeholder brief on [POLICY TOPIC] for [AUDIENCE], outlining context, stakeholder positions, potential impact, and engagement recommendations.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-government-affairs-healthcare-legislative-monitoring-summary",
+      "title": "Legislative monitoring summary",
+      "jobAreaId": "government-affairs-healthcare",
+      "useCaseId": "legislative-monitoring-summary",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on legislative monitoring summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize recent legislative developments on [TOPIC] from this material: [PASTE SOURCES]. Highlight what changed and why it matters.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-government-affairs-healthcare-policymaker-meeting-brief",
+      "title": "Policymaker meeting brief",
+      "jobAreaId": "government-affairs-healthcare",
+      "useCaseId": "policymaker-meeting-brief",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on policymaker meeting brief for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a pre-meeting brief for [POLICYMAKER/INSTITUTION] covering objectives, key messages, anticipated questions, and supporting evidence.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-government-affairs-healthcare-consultation-response-outline",
+      "title": "Consultation response outline",
+      "jobAreaId": "government-affairs-healthcare",
+      "useCaseId": "consultation-response-outline",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on consultation response outline for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate an outline for a consultation response on [TOPIC], including key arguments, evidence points, and a proposed response structure.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-government-affairs-healthcare-email-drafting",
@@ -1988,7 +2172,7 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft an email to [RECIPIENT] about [TOPIC], with a clear objective, concise key points, and a specific call to action.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-government-affairs-healthcare-email-feedback",
@@ -1998,7 +2182,7 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this email draft: [PASTE DRAFT]. Suggest targeted edits to improve clarity, tone, structure, and likelihood of response.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-government-affairs-healthcare-colleague-situation-feedback",
@@ -2008,7 +2192,77 @@
       "industryIds": [
         "healthcare"
       ],
-      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this colleague situation: [DESCRIBE SITUATION]. Provide practical feedback, risks to watch, and a recommended response approach.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-medical-affairs-medical-information-response",
+      "title": "Medical information response",
+      "jobAreaId": "medical-affairs",
+      "useCaseId": "medical-information-response",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on medical information response for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a balanced medical information response to this request: [PASTE REQUEST], using only the provided evidence and clearly noting any limitations.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-medical-affairs-evidence-gap-summary",
+      "title": "Evidence gap summary",
+      "jobAreaId": "medical-affairs",
+      "useCaseId": "evidence-gap-summary",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on evidence gap summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this evidence set: [PASTE SUMMARY] and identify key evidence gaps, why they matter, and priority actions to close them.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-medical-affairs-scientific-narrative-brief",
+      "title": "Scientific narrative brief",
+      "jobAreaId": "medical-affairs",
+      "useCaseId": "scientific-narrative-brief",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on scientific narrative brief for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a scientific narrative brief for [THERAPY/TOPIC] that connects mechanism, evidence, and clinical relevance for [AUDIENCE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-medical-affairs-congress-insight-summary",
+      "title": "Congress insight summary",
+      "jobAreaId": "medical-affairs",
+      "useCaseId": "congress-insight-summary",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on congress insight summary for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nSummarize key insights from this congress content: [PASTE NOTES/ABSTRACTS], including implications for medical strategy and next actions.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-medical-affairs-email-drafting",
+      "title": "Email drafting",
+      "jobAreaId": "medical-affairs",
+      "useCaseId": "email-drafting",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft an email to [RECIPIENT] about [TOPIC], with a clear objective, concise key points, and a specific call to action.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-medical-affairs-email-feedback",
+      "title": "Email feedback",
+      "jobAreaId": "medical-affairs",
+      "useCaseId": "email-feedback",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this email draft: [PASTE DRAFT]. Suggest targeted edits to improve clarity, tone, structure, and likelihood of response.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-medical-affairs-colleague-situation-feedback",
+      "title": "Colleague situation feedback",
+      "jobAreaId": "medical-affairs",
+      "useCaseId": "colleague-situation-feedback",
+      "industryIds": [
+        "healthcare"
+      ],
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this colleague situation: [DESCRIBE SITUATION]. Provide practical feedback, risks to watch, and a recommended response approach.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-strategy-strategic-options-analysis",
@@ -2018,7 +2272,37 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on strategic options analysis for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with strategic options analysis for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on strategic options analysis for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nAnalyze strategic options for [OBJECTIVE/DECISION], comparing benefits, risks, resource implications, and recommended next steps.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-strategy-market-prioritization-framework",
+      "title": "Market prioritization framework",
+      "jobAreaId": "strategy",
+      "useCaseId": "market-prioritization-framework",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on market prioritization framework for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nBuild a market prioritization framework for [PORTFOLIO/OFFER], using criteria, scoring logic, and a ranked recommendation.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-strategy-growth-hypothesis-testing",
+      "title": "Growth hypothesis testing",
+      "jobAreaId": "strategy",
+      "useCaseId": "growth-hypothesis-testing",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on growth hypothesis testing for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nGenerate testable growth hypotheses for [BUSINESS/INITIATIVE], including assumptions, validation methods, and success metrics.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-strategy-strategic-risk-register",
+      "title": "Strategic risk register",
+      "jobAreaId": "strategy",
+      "useCaseId": "strategic-risk-register",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on strategic risk register for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate a strategic risk register for [INITIATIVE], listing risks, likelihood, impact, early indicators, and mitigation actions.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-strategy-email-drafting",
@@ -2028,7 +2312,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft an email to [RECIPIENT] about [TOPIC], with a clear objective, concise key points, and a specific call to action.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-strategy-email-feedback",
@@ -2038,7 +2322,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this email draft: [PASTE DRAFT]. Suggest targeted edits to improve clarity, tone, structure, and likelihood of response.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-strategy-colleague-situation-feedback",
@@ -2048,7 +2332,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this colleague situation: [DESCRIBE SITUATION]. Provide practical feedback, risks to watch, and a recommended response approach.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-leadership-executive-communication-planning",
@@ -2058,7 +2342,37 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on executive communication planning for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with executive communication planning for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on executive communication planning for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nCreate an executive communication plan for [ANNOUNCEMENT/CHANGE], including audience segmentation, key messages, channels, and timing.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-leadership-decision-memo-drafting",
+      "title": "Decision memo drafting",
+      "jobAreaId": "leadership",
+      "useCaseId": "decision-memo-drafting",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on decision memo drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a decision memo for [DECISION TOPIC] with context, options considered, recommendation, rationale, and requested decision.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-leadership-all-hands-message-draft",
+      "title": "All-hands message draft",
+      "jobAreaId": "leadership",
+      "useCaseId": "all-hands-message-draft",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on all-hands message draft for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nWrite an all-hands message about [TOPIC/CHANGE] that explains the why, what changes, and what is expected next.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+    },
+    {
+      "id": "ph-leadership-leadership-alignment-brief",
+      "title": "Leadership alignment brief",
+      "jobAreaId": "leadership",
+      "useCaseId": "leadership-alignment-brief",
+      "industryIds": [
+        "all"
+      ],
+      "template": "I'm working on leadership alignment brief for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft a leadership alignment brief for [TOPIC], capturing current viewpoints, points of alignment/misalignment, and a path to decision.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-leadership-email-drafting",
@@ -2068,7 +2382,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email drafting for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email drafting for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nDraft an email to [RECIPIENT] about [TOPIC], with a clear objective, concise key points, and a specific call to action.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-leadership-email-feedback",
@@ -2078,7 +2392,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with email feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on email feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this email draft: [PASTE DRAFT]. Suggest targeted edits to improve clarity, tone, structure, and likelihood of response.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     },
     {
       "id": "ph-leadership-colleague-situation-feedback",
@@ -2088,7 +2402,7 @@
       "industryIds": [
         "all"
       ],
-      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nHelp me with colleague situation feedback for [AUDIENCE/STAKEHOLDER], focused on [TOPIC/OBJECTIVE].\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
+      "template": "I'm working on colleague situation feedback for [AUDIENCE/STAKEHOLDER], and my challenge is [MAIN CHALLENGE OR GOAL FOR THIS TASK].\n\nReview this colleague situation: [DESCRIBE SITUATION]. Provide practical feedback, risks to watch, and a recommended response approach.\n\nUse a [TONE] tone and keep it within [WORD COUNT OR LENGTH]. Make the output specific, practical, and ready to use.\n\nConsider the documents attached.\n[Upload inspiration: background context, current drafts, examples to emulate, style or brand guidelines, data/metrics, constraints, relevant emails/notes, and any supporting files]"
     }
   ]
 }
